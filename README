@@ -1,0 +1,26 @@
++================================+
+| Spanish Conjugator v1.2	     |
+|--------------------------------|
+| Author: Crwire				 |
+| Created: December 2013         |
+| Revived: June 2014             |
++================================+
+
+Originally this program was meant for me to understand programming and Spanish a little more, but now I've since become much better at Spanish and need to sharpen my programming skills. 
+
++================================+
+| CHANGELOG                      |
++================================+
+v1-2
+Much more exciting, can take an 'ar', 'er' or 'ir' verb, conjugate it appropriately and append the correct person before.
+Code has been cleaned and more appropriately encapsulated than before.
+
+Still missing the latter conjugates after Nosotros.
+v1-1
+Bit more of an improvement, spits out the person now i.e. comer -> Yo como but is still hard coded.
+v1-0
+Doesn't do much, has some basic structures but does nothing more than print out a given verb conjugated in the "I" person i.e. comer -> como
+
++================================+
+| END of README                  |
++================================+
