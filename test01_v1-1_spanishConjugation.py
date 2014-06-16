@@ -32,10 +32,6 @@ def return_pre (eng_pre = "i"):
         return_value = persons[3]
     elif eng_pre in ("we", "We"):
         return_value = persons[4]
-    elif eng_pre in ("you all", "YOU ALL", "You all", "You All"):
-        return_value = persons[5]
-    elif eng_pre in ("they", "They", "THEY", "boys", "BOYS", "Boys"):
-        return_value = persons[6]
     else : return_value = "* "
     return return_value
 
@@ -71,13 +67,11 @@ def return_conj_verb(verb_inf, esp_pre):
     else: full_conjugation = "Not a Spanish verb!"
     return full_conjugation
 
-#User input loop
+#user input
 print_line()
-myVerb = "Spanish Conjugator v1.2\nCoded by Crwire (C) June 2014"
-#Loop variables + setup
+myVerb = "Spanish Conjugator v1.1\nCoded by Crwire (C) June 2014"
 continue_session = True
 print myVerb
-
 while continue_session == True:
     print_line()
     myVerb = raw_input('What is your verb, to translate to *you* ? - ')
@@ -94,6 +88,7 @@ while continue_session == True:
     #Final output
     print return_conj_verb(myVerb, return_pre(myPre))
 
+    
 # AR VERBS o as a amos ais an
 # ER VERBS o es e emos eis en
 # IR VERBS o es e imos is en
